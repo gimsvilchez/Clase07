@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             executeLongTaskOnMainThread();
             break;
             case R.id.buttonLongTaskWorkerThread:
-            executeLongTaskOnMainThread();
+            executeLongTaskOnWorkerThread();
             break;
         }
     }
